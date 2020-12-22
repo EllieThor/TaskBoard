@@ -72,7 +72,6 @@ function addNote(newNote){
     var createTA= document.createElement("textarea");
     // assign attributes to textarea
     createTA.setAttribute("class", "taskTA");
-    createTA.setAttribute("disabled","disabled");
     createTA.setAttribute("cols", "15");
     createTA.setAttribute("rows", "4");
     // appending the textarea to stickyContainer
