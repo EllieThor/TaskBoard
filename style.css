@@ -3,117 +3,137 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Nerko One', cursive; */
 
-body{
-    background-image: url("images/tile.jpg");
-    font-family: 'Montserrat', sans-serif;
- }
-
-/* title section */
-#title-sec{
-    padding: 3rem 0 4.5rem;
-    text-align: center;
+body {
+  background-image: url("images/tile.jpg");
+  font-family: "Montserrat", sans-serif;
 }
 
-.myTitle{
-    font-family: 'Indie Flower', cursive;
-    font-size: 300%;
-    font-weight: 900;
+/* title section */
+#title-sec {
+  padding: 3rem 0 4.5rem;
+  text-align: center;
+}
+
+.myTitle {
+  font-family: "Indie Flower", cursive;
+  font-size: 300%;
+  font-weight: 900;
 }
 
 /* form-section */
-.formcontainer{
-    background-image: url("images/formbg.jpg");
-    border-radius: 2%;
-    padding: 1rem;
-    padding-left: 90px;
-    margin: 0 auto;
-    width: 97%;
+.formContainer {
+  background-image: url("images/formbg.jpg");
+  border-radius: 2%;
+  padding: 1rem;
+  padding-left: 90px;
+  margin: 0 auto;
+  width: 97%;
 }
 
-.form-group{
-    margin-top: 1rem;
+.form-group {
+  margin-top: 1rem;
 }
 
-.input-task{
-    color: rgb(85, 2, 2);
-    font-family: 'Indie Flower', cursive;
-    font-size: 112%;
-    font-weight: 900;
+.input-task {
+  color: rgb(85, 2, 2);
+  font-family: "Indie Flower", cursive;
+  font-size: 112%;
+  font-weight: 900;
 }
 
-.formlabel{
-    color: rgb(85, 2, 2);
-    font-family: 'Nerko One', cursive;
-    font-size: 1.5rem;
+.formlabel {
+  color: rgb(85, 2, 2);
+  font-family: "Nerko One", cursive;
+  font-size: 1.5rem;
 }
 
 /* post section */
 
-#note-sec{
-    padding: 3rem 2.5rem 4.5rem;
-    text-align: center;
+#note-sec {
+  padding: 3rem 2.5rem 4.5rem;
+  text-align: center;
 }
 
-.stickyContainer{
-    background-image: url("images/notebg.png");
-    float: left;
-    height: 250px;
-    width: 200px; 
-    /*fadeIn animation */
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s; 
+.stickyContainer {
+  background-image: url("images/notebg.png");
+  float: left;
+  height: 250px;
+  width: 200px;
+  /*fadeIn animation */
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
 }
 
 /* fadeIn animation */
 
 @keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.taskTA{
-    background: transparent;
-    border: none;
-    display: block;
-    margin: 5% 0% 5% 7%;  
-    resize: none;   
+.taskTA {
+  background: transparent;
+  border: none;
+  display: block;
+  margin: 5% 0% 5% 7%;
+  resize: none;
 }
 
-.dateTime{
-    display: block;
-    font-family: 'Indie Flower', cursive;
-    font-size: 140%;
-    margin-left:10%;
-    text-align: left;
+.dateTime {
+  display: block;
+  font-family: "Indie Flower", cursive;
+  font-size: 140%;
+  margin-left: 10%;
+  text-align: left;
 }
 
 /* delete task icon css */
-.deleteTask{
-    margin-left: 60%;
-    margin-top: 10%;
-    visibility: hidden;
+.deleteTask {
+  margin-left: 60%;
+  margin-top: 10%;
+  visibility: hidden;
 }
 
-.stickyContainer:hover  .deleteTask{
-    visibility: visible;
+.stickyContainer:hover .deleteTask {
+  visibility: visible;
 }
