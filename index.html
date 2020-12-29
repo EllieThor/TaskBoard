@@ -15,23 +15,23 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- favicon -->
     <link rel="shortcut icon" href="images/faviconPushpin.png" type="image/x-icon">
-    <title>Task Bourd</title>
-     <!-- jqery file -->
+    <title>Task Board</title>
+     <!-- jquery file -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   </head>
-  <body onload="createnotes()">
+  <body onload="createNotes()">
 
       <section id="title-sec">
-          <h1 class="myTitle">My Task Bourd</h1>
+          <h1 class="myTitle">My Task Board</h1>
       </section>
       
       <section id="form-sec">
           <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-12">
-                  <div class="formcontainer">
-                    <form id="myform">
+                  <div class="formContainer">
+                    <form id="myForm">
                         <div class="form-floating">
                             <label class="formlabel" for="task-details">Task Details:</label>
                             <textarea class="form-control" placeholder="Leave a task here" id="taskDetails"></textarea>
@@ -48,8 +48,8 @@
                   </div>
                 </div>
                 <div class="col-lg-2 col-md-12 text-lg-left text-center">
-                  <button type="button" class="btn btn-dark btn-lg mb-lg-2 my-lg-0 my-md-4 my-sm-3 my-2" form="myform" onclick="addtask()"><i class="fas fa-thumbtack"></i> Add Task</button>
-                  <button type="reset" class="btn btn-dark btn-lg my-lg-0 my-md-4 my-sm-3 my-2 ml-lg-0 ml-md-3 ml-sm-2 ml-1" form="myform"><i class="fas fa-trash"></i> Reset</button>  
+                  <button type="button" class="btn btn-dark btn-lg mb-lg-2 my-lg-0 my-md-4 my-sm-3 my-2" form="myForm" onclick="addTask()"><i class="fas fa-thumbtack"></i> Add Task</button>
+                  <button type="reset" class="btn btn-dark btn-lg my-lg-0 my-md-4 my-sm-3 my-2 ml-lg-0 ml-md-3 ml-sm-2 ml-1" form="myForm"><i class="fas fa-trash"></i> Reset</button>  
                 </div>
             </div>        
           </div>
@@ -60,6 +60,7 @@
           <div class="row" id="noteRow">
 
           </div>
+        </div>
         </div>      
       </section>
   
@@ -67,7 +68,7 @@
 
 
     <!-- js file -->
-    <script src="taskbourd.js"></script>
+    <script src="taskboard.js"></script>
 
       
     <!-- Optional JavaScript; choose one of the two! -->
